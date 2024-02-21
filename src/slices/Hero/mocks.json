@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"santosh": {
+				"__TYPE__": "FieldContent",
+				"value": "familiar",
+				"type": "Text"
+			},
+			"erathasari": {
+				"__TYPE__": "FieldContent",
+				"value": "principle",
+				"type": "Text"
+			},
+			"dedicated_student": {
+				"__TYPE__": "FieldContent",
+				"value": "sit",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

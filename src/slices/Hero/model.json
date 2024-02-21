@@ -1,0 +1,40 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "santosh": {
+          "type": "Text",
+          "config": {
+            "label": "Santosh",
+            "placeholder": ""
+          }
+        },
+        "erathasari": {
+          "type": "Text",
+          "config": {
+            "label": "Erathasari",
+            "placeholder": ""
+          }
+        },
+        "dedicated_student": {
+          "type": "Text",
+          "config": {
+            "label": "Dedicated Student",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

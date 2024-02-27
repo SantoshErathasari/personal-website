@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Urbanist } from "next/font/google";
+import { Orbitron } from "next/font/google";
 import "./globals.css";
 
-const inter = Urbanist({ subsets: ["latin"] });
+const inter = Orbitron({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",

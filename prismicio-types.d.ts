@@ -7,11 +7,19 @@ type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 type HomepageDocumentDataSlicesSlice = HeroSlice;
 
 /**
+<<<<<<< HEAD
  * Content for Homepage documents
  */
 interface HomepageDocumentData {
   /**
    * Slice Zone field in *Homepage*
+=======
+ * Content for homepage documents
+ */
+interface HomepageDocumentData {
+  /**
+   * Slice Zone field in *homepage*
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
    *
    * - **Field Type**: Slice Zone
    * - **Placeholder**: *None*
@@ -20,7 +28,11 @@ interface HomepageDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#slices
    */
   slices: prismic.SliceZone<HomepageDocumentDataSlicesSlice> /**
+<<<<<<< HEAD
    * Meta Title field in *Homepage*
+=======
+   * Meta Title field in *homepage*
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
    *
    * - **Field Type**: Text
    * - **Placeholder**: A title of the page used for social media and search engines
@@ -31,7 +43,11 @@ interface HomepageDocumentData {
   meta_title: prismic.KeyTextField;
 
   /**
+<<<<<<< HEAD
    * Meta Description field in *Homepage*
+=======
+   * Meta Description field in *homepage*
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
    *
    * - **Field Type**: Text
    * - **Placeholder**: A brief summary of the page
@@ -42,7 +58,11 @@ interface HomepageDocumentData {
   meta_description: prismic.KeyTextField;
 
   /**
+<<<<<<< HEAD
    * Meta Image field in *Homepage*
+=======
+   * Meta Image field in *homepage*
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -54,7 +74,11 @@ interface HomepageDocumentData {
 }
 
 /**
+<<<<<<< HEAD
  * Homepage document from Prismic
+=======
+ * homepage document from Prismic
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
  *
  * - **API ID**: `homepage`
  * - **Repeatable**: `false`
@@ -76,6 +100,7 @@ export type AllDocumentTypes = HomepageDocument;
  */
 export interface HeroSliceDefaultPrimary {
   /**
+<<<<<<< HEAD
    * First Name field in *Hero → Primary*
    *
    * - **Field Type**: Text
@@ -104,6 +129,36 @@ export interface HeroSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   tag_line: prismic.KeyTextField;
+=======
+   * Santosh field in *Hero → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero.primary.santosh
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  santosh: prismic.KeyTextField;
+
+  /**
+   * Erathasari field in *Hero → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero.primary.erathasari
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  erathasari: prismic.KeyTextField;
+
+  /**
+   * Dedicated Student field in *Hero → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero.primary.dedicated_student
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  dedicated_student: prismic.KeyTextField;
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
 }
 
 /**

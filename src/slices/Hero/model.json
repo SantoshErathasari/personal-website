@@ -12,6 +12,7 @@
       "description": "Default",
       "imageUrl": "",
       "primary": {
+<<<<<<< HEAD
         "first_name": {
           "type": "Text",
           "config": {
@@ -30,6 +31,26 @@
           "type": "Text",
           "config": {
             "label": "Tag Line",
+=======
+        "santosh": {
+          "type": "Text",
+          "config": {
+            "label": "Santosh",
+            "placeholder": ""
+          }
+        },
+        "erathasari": {
+          "type": "Text",
+          "config": {
+            "label": "Erathasari",
+            "placeholder": ""
+          }
+        },
+        "dedicated_student": {
+          "type": "Text",
+          "config": {
+            "label": "Dedicated Student",
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
             "placeholder": ""
           }
         }

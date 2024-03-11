@@ -3,6 +3,7 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
+<<<<<<< HEAD
 			"first_name": {
 				"__TYPE__": "FieldContent",
 				"value": "yesterday",
@@ -16,6 +17,21 @@
 			"tag_line": {
 				"__TYPE__": "FieldContent",
 				"value": "together",
+=======
+			"santosh": {
+				"__TYPE__": "FieldContent",
+				"value": "familiar",
+				"type": "Text"
+			},
+			"erathasari": {
+				"__TYPE__": "FieldContent",
+				"value": "principle",
+				"type": "Text"
+			},
+			"dedicated_student": {
+				"__TYPE__": "FieldContent",
+				"value": "sit",
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
 				"type": "Text"
 			}
 		},

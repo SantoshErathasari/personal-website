@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
+<<<<<<< HEAD
 import { Orbitron } from "next/font/google";
 import "./globals.css";
 
 const inter = Orbitron({ subsets: ["latin"] });
+=======
+import { Urbanist } from "next/font/google";
+import "./globals.css";
+
+const inter = Urbanist({ subsets: ["latin"] });
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +22,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+<<<<<<< HEAD
     <html lang="en" className='bg-teal-950 text-teal-300'>
       <body className={inter.className}>{children}</body>
     </html>
   );
 }
+=======
+    <html lang="en" className='bg-slate-900 text-slate-100'>
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139

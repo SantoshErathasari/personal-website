@@ -7,6 +7,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/slices/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+<<<<<<< HEAD
   theme: {
     extend: {
       backgroundImage: {
@@ -16,6 +17,9 @@ const config: Config = {
       },
     },
   },
+=======
+  theme: {},
+>>>>>>> e572cde1b6b5ea5e52ed10d95d7597cb65ed8139
   plugins: [],
 };
 export default config;
